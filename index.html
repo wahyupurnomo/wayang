@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Wayang Kulit</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="lib/jquery-1.6.4.js"></script>
+        <script src="lib/jquery.mobile-1.1.0.js"></script>
+        <link href="src/css/jquery.mobile.structure-1.1.0.css" rel="stylesheet">
+        <link href="src/css/jquery.mobile.theme-1.1.0.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div data-role="page" id="page1" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Yuk mengenal tokoh wayang kulit</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home" class="ui-btn-active" href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info" href="#page3" data-rel="dialog" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page2" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Tokoh Wayang Kulit</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pandawalima">Pandawa Lima</a>
+                    </li>
+                    <li>
+                        <a href="#punakawan">Punakawan</a>
+                    </li>
+                    <li>
+                        <a href="#hastinapura">Hastina Pura</a>
+                    </li>
+					 <li>
+                        <a href="#paradewa">Para Dewa</a>
+                    </li>
+					 <li>
+                        <a href="#anakanakpandawalima">Anak-anak Pandawa Lima</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="page3" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <h1>Info</h1>
+				<p>Mengenal wayang kulit ini disusun dari beberapa sumber di Internet, diantaranya :</p>
+				<ul>
+				<li>http://id.wikipedia.org/wiki/Wayang_kulit
+				<li>http://en.wikipedia.org/wiki/Wayang
+				<li>http://wayangprabu.com/
+				<li>http://daftarwayangkulitlengkap.blogspot.com/
+				</ul>
+				<p>Mungkin bukan sumber tersebut kurang otentik, tetapi diharapkan membantu memudahkan mengenal tokoh wayang kulit</p>
+				<p>Aplikasi ini dibuat oleh Wahyu Purnomo, Pengembang Teknologi Pembelajaran VEDC Malang, dan Richa Mas'ula siswi SMK Negeri Tutur yg sedang prakerin di VEDC Malang</p>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                
+            </div>
+        </div>
+		<!-- Kelompok Wayang 1 -->
+        <div data-role="page" id="paradewa" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Para Dewa</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+           
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#sanghyangguru" data-rel="dialog" data-transition="slideup"> Sang Hyang Guru</a>
+                    </li>
+                    <li>
+                        <a href="#sanghyangnarada" data-rel="dialog" data-transition="slidedown">Sang Hyang Narada</a>
+                    </li>
+                    <li>
+                        <a href="#bataraindra" data-rel="dialog" data-transition="slidedown">Batara Indra</a>
+                    </li>
+					<li>
+                        <a href="#batarabayu" data-rel="dialog" data-transition="slidedown">Batara Bayu</a>
+                    </li>
+					<li>
+                        <a href="#sanghyangwisnu" data-rel="dialog" data-transition="slidedown">Sang Hyang Wisnu</a>
+                    </li>
+					<li>
+                        <a href="#sanghyangtunggal" data-rel="dialog" data-transition="slidedown">Sang Hyang Tunggal</a>
+                    </li>
+					<li>
+                        <a href="#sanghyangwenang" data-rel="dialog" data-transition="slidedown">Sang Hyang Wenang</a>
+                    </li>
+					<li>
+                        <a href="#batarakamajaya" data-rel="dialog" data-transition="slidedown">Batara Kamajaya</a>
+                    </li>
+					<li>
+                        <a href="#batarasurya" data-rel="dialog" data-transition="slidedown">Batara Surya</a>
+                    </li>
+					<li>
+                        <a href="#bataracandra" data-rel="dialog" data-transition="slidedown">Batara Candra</a>
+                    </li>
+					<li>
+                        <a href="#batarakala" data-rel="dialog" data-transition="slidedown">Batara Kala</a>
+                    </li>
+					<li>
+                        <a href="#bataradurga" data-rel="dialog" data-transition="slidedown">Batari Durga</a>
+                    </li>
+					<li>
+                        <a href="#batarabrama" data-rel="dialog" data-transition="slidedown">Batara Brama</a>
+                    </li>
+					<li>
+                        <a href="#sanghyangbaruna" data-rel="dialog" data-transition="slidedown">Sang Hyang Baruna</a>
+                    </li>
+					<li>
+                        <a href="#sanghyangantaboga" data-rel="dialog" data-transition="slidedown">Sang Hyang Antaboga</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<!-- /Kelompok Wayang 1 -->
+		
+		<!-- Nama Wayang di Kelompok Wayang 1 -->
+		
+		<!-- Gambar Wayang -->
+        <div data-role="page" id="prabuyudhistira" data-theme="e">
+		<div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/Yudistira-kl.jpg" style="display: block; margin: 0 auto">
+                <h1>Raden Yudhistira</h1>
+            </div>
+			<div data-role="footer">
+        
+            </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangguru" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Guru</span>
+                <img src="images/sanghyangguru.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangnarada" data-theme="e">
+            <div data-role="header">
+                <h1>Sang Hyang Narada</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Narada</span>
+                <img src="images/sanghyangnarada.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="bataraindra" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Indra</span>
+                <img src="images/bataraindra.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="batarabayu" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Bayu</span>
+                <img src="images/batarabayu.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangwisnu" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Wisnu</span>
+                <img src="images/wisnu.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangtunggal" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Tunggal</span>
+                <img src="images/sanghyangtunggal.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangwenang" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Wenang</span>
+                <img src="images/sanghyangwenang.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="batarakamajaya" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Kamajaya</span>
+                <img src="images/kamajaya.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="batarasurya" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Surya</span>
+                <img src="images/surya.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="bataracandra" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Candra</span>
+                <img src="images/candra.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="batarakala" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Kala</span>
+                <img src="images/kala.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="bataradurga" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batari Durga</span>
+                <img src="images/bataridurga.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="batarabrama" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Batara Brama</span>
+                <img src="images/brama.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangbaruna" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Baruna</span>
+                <img src="images/baruna.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="sanghyangantaboga" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Sang Hyang Antaboga</span>
+                <img src="images/antaboga.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+				<!-- /Nama Wayang di Kelompok Wayang 1 -->
+		
+		<!-- Kelompok Wayang 2 -->
+        <div data-role="page" id="punakawan" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Punakawan</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+           
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#kiailurahsemarbadranayasanghyangismayakakangnayantaka" data-rel="dialog" data-transition="slideup">Kiai Lurah Semar Badranaya/Sang Hyang Ismaya/Kakang Nayantaka</a>
+                    </li>
+                    <li>
+                        <a href="#nalagareng" data-rel="dialog" data-transition="slidedown">Nala Gareng</a>
+                    </li>
+                    <li>
+                        <a href="#kilurahpetrukkanthongbolong" data-rel="dialog" data-transition="slidedown">Ki Lurah Petruk Kanthong Bolong</a>
+                    </li>
+					<li>
+                        <a href="#bagong" data-rel="dialog" data-transition="slidedown">Bagong</a>
+                    </li>
+					<li>
+                        <a href="#mbokcangik" data-rel="dialog" data-transition="slidedown">Mbok Cangik</a>
+                    </li>
+					<li>
+                        <a href="#limbuk" data-rel="dialog" data-transition="slidedown">Limbuk</a>
+                    </li>
+					<li>
+                        <a href="#togogsanghyangtejamaya" data-rel="dialog" data-transition="slidedown">Togog/Sang Hyang Tejamaya</a>
+                    </li>
+					<li>
+                        <a href="#mbilung" data-rel="dialog" data-transition="slidedown">Mbilung</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- /Kelompok Wayang 2 -->
+		
+		<!-- Nama Wayang di Kelompok Wayang 2 -->
+		
+		<!-- Gambar Wayang -->
+        <div data-role="page" id="kiailurahsemarbadranayasanghyangismayakakangnayantaka" data-theme="e">
+		<div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/semar.jpg" style="display: block; margin: 0 auto">
+                <span>Kiai Lurah Semar Badranaya/Sang Hyang Ismaya/Kakang Nayantaka</span>
+            </div>
+			<div data-role="footer">
+        
+            </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="nalagareng" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Nala Gareng</span>
+                <img src="images/gareng.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="kilurahpetrukkanthongbolong" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Ki Lurah Petruk Kanthong Bolong</span>
+                <img src="images/petruk.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="bagong" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Bagong</span>
+                <img src="images/bagong.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="mbokcangik" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Mbok Cangik</span>
+                <img src="images/cangik.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- Gambar Wayang -->
+		<div data-role="page" id="limbuk" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Limbuk</span>
+                <img src="images/limbuk.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- Gambar Wayang -->
+		<div data-role="page" id="togogsanghyangtejamaya" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Togog / Sang Hyang Tejamaya</span>
+                <img src="images/togog.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="mbilung" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Mbilung</span>
+                <img src="images/sarawita.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- /Nama Wayang di Kelompok Wayang 2 -->
+					<!-- Kelompok Wayang 3 -->
+        <div data-role="page" id="hastinapura" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Hastina Pura</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+           
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#prabusentanu" data-rel="dialog" data-transition="slideup">Prabu Sentanu</a>
+                    </li>
+                    <li>
+                        <a href="#bismadewabratharesi" data-rel="dialog" data-transition="slidedown">Bisma Dewa Bratha (Resi)</a>
+                    </li>
+                    <li>
+                        <a href="#prabupandudewanata" data-rel="dialog" data-transition="slidedown">Prabu Pandu Dewanata</a>
+                    </li>
+					<li>
+                        <a href="#dewikunthinalibratha" data-rel="dialog" data-transition="slidedown">Dewi Kunthi Nalibratha</a>
+                    </li>
+					<li>
+                        <a href="#prabudestharastra" data-rel="dialog" data-transition="slidedown">Prabu Destharastra</a>
+                    </li>
+					<li>
+                        <a href="#dewigendari" data-rel="dialog" data-transition="slidedown">Dewi Gendari</a>
+                    </li>
+					<li>
+                        <a href="#aryawidura" data-rel="dialog" data-transition="slidedown">Arya Widura</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- /Kelompok Wayang 3 -->
+		
+		<!-- Nama Wayang di Kelompok Wayang 3 -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="prabusentanu" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Prabu Sentanu</span>
+                <img src="images/prabu sentanu.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="bismadewabratharesi" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Bisma Dewa Bratha (Resi)</span>
+                <img src="images/bisma.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="prabupandudewanata" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Prabu Pandu Dewanata</span>
+                <img src="images/pandu.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="dewikunthinalibratha" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Dewi Kunthi Nalibratha</span>
+                <img src="images/kunti.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- Gambar Wayang -->
+		<div data-role="page" id="prabudestharastra" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Prabu Destharastra</span>
+                <img src="images/destharastra.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- Gambar Wayang -->
+		<div data-role="page" id="dewigendari" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Dewi Gendari</span>
+                <img src="images/gendari.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="aryawidura" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Arya Widura</span>
+                <img src="images/widura.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+				<!-- /Nama Wayang di Kelompok Wayang 3 -->
+		
+		<!-- Nama Wayang di Kelompok Wayang 4 -->
+		<!-- Kelompok Wayang 3 -->
+        <div data-role="page" id="pandawalima" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Pandawa Lima</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+           
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#prabuyudhistira" data-rel="dialog" data-transition="slideup">Prabu Yudhistira</a>
+                    </li>
+                    <li>
+                        <a href="#radenbima" data-rel="dialog" data-transition="slidedown">Raden Bima</a>
+                    </li>
+                    <li>
+                        <a href="#radenarjuna" data-rel="dialog" data-transition="slidedown">Raden Arjuna</a>
+                    </li>
+					<li>
+                        <a href="#radennakula" data-rel="dialog" data-transition="slidedown">Raden Nakula</a>
+                    </li>
+					<li>
+                        <a href="#radensadewa" data-rel="dialog" data-transition="slidedown">Raden Sadewa</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		<!-- Gambar Wayang -->
+        <div data-role="page" id="prabuyudhistira" data-theme="e">
+		<div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/Yudistira-kl.jpg" style="display: block; margin: 0 auto">
+                <h1>Raden Yudhistira</h1>
+            </div>
+			<div data-role="footer">
+        
+            </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="radenbima" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Bima</span>
+                <img src="images/Werkudara.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="radenarjuna" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Arjuna</span>
+                <img src="images/arjuna.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="radennakula" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Nakula</span>
+                <img src="images/Nakula.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="radensadewa" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Sadewa</span>
+                <img src="images/sadewa.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+				<!-- /Nama Wayang di Kelompok Wayang 4 -->
+				
+	<!-- Kelompok Wayang 5 -->
+        <div data-role="page" id="anakanakpandawalima" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Anak-anak Pandawa Lima</span>
+                <img src="images/wayang.jpg" width="300" style="display: block; margin: 0 auto">
+           
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#radenpancawala" data-rel="dialog" data-transition="slideup"> Raden Pancawala</a>
+                    </li>
+                    <li>
+                        <a href="#radenantareja" data-rel="dialog" data-transition="slidedown">Raden Antareja</a>
+                    </li>
+                    <li>
+                        <a href="#radengatotkaca" data-rel="dialog" data-transition="slidedown">Raden Gatotkaca</a>
+                    </li>
+					<li>
+                        <a href="#radenantasena" data-rel="dialog" data-transition="slidedown">Raden Antasena</a>
+                    </li>
+					<li>
+                        <a href="#radenabimanyu" data-rel="dialog" data-transition="slidedown">Raden Abimanyu</a>
+                    </li>
+					<li>
+                        <a href="#radenbambangirawan" data-rel="dialog" data-transition="slidedown">Raden Bambang Irawan</a>
+                    </li>
+					<li>
+                        <a href="#radenwisanggeni" data-rel="dialog" data-transition="slidedown">Raden Wisanggeni</a>
+                    </li>
+					<li>
+                        <a href="#radensumitra" data-rel="dialog" data-transition="slidedown">Raden Sumitra</a>
+                    </li>
+					<li>
+                        <a href="#prabukusuma" data-rel="dialog" data-transition="slidedown">Prabu Kusuma</a>
+                    </li>
+					<li>
+                        <a href="#radenwijanarka" data-rel="dialog" data-transition="slidedown">Raden Wijanarka</a>
+                    </li>
+					<li>
+                        <a href="#radenbrantalaras" data-rel="dialog" data-transition="slidedown">Raden Brantalaras</a>
+                    </li>
+					<li>
+                        <a href="#radenkumaladewa" data-rel="dialog" data-transition="slidedown">Raden Kumaladewa</a>
+                    </li>
+					<li>
+                        <a href="#radenkumalasekti" data-rel="dialog" data-transition="slidedown">Raden Kumalasekti</a>
+                    </li>
+					<li>
+                        <a href="#radenantakadewa" data-rel="dialog" data-transition="slidedown">Raden Antaka Dewa</a>
+                    </li>
+					<li>
+                        <a href="#radenwilugangga" data-rel="dialog" data-transition="slidedown">Raden Wilugangga</a>
+                    </li>
+					<li>
+                        <a href="#radensumbada" data-rel="dialog" data-transition="slidedown">Raden Sumbada</a>
+                    </li>
+					<li>
+                        <a href="#radenpramusinta" data-rel="dialog" data-transition="slidedown">Raden Pramusinta</a>
+                    </li>
+					<li>
+                        <a href="#radenwidapaksa" data-rel="dialog" data-transition="slidedown">Raden Widapaksa</a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer">
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" data-icon="home"  href="#page1">Home</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="grid"  class="ui-btn-active" href="#page2" data-transition="flip">Menu</a>
+                        </li>
+                        <li>
+                            <a data-role="button" data-icon="info"  href="#page3" data-transition="slidedown">Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<!-- /Kelompok Wayang 1 -->
+		
+		<!-- Nama Wayang di Kelompok Wayang 1 -->
+		
+		<!-- Gambar Wayang -->
+        <div data-role="page" id="rade" data-theme="e">
+		<div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <img src="images/Yudistira-kl.jpg" style="display: block; margin: 0 auto">
+                <h1>Raden Yudhistira</h1>
+            </div>
+			<div data-role="footer">
+            </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="radenpancawala" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Pancawala</span>
+                <img src="images/pancawala.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+		
+		<!-- Gambar Wayang -->
+		<div data-role="page" id="radenantareja" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Antareja</span>
+                <img src="images/antareja.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="radengatotkaca" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Gatotkaca</span>
+                <img src="images/Gathotkaca.png" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- Gambar Wayang -->
+		<div data-role="page" id="radenantasena" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Antasena</span>
+                <img src="images/antasena.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenabimanyu" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Abimanyu</span>
+                <img src="images/abimanyu.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenbambangirawan" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Bambang Irawan</span>
+                <img src="images/irawan.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenwisanggeni" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Wisanggeni</span>
+                <img src="images/wisanggeni.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radensumitra" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Sumitra</span>
+                <img src="images/sumitra.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="prabukusuma" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Prabu Kusuma</span>
+                <img src="images/prabukusuma.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenwijanarka" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Wijanarka</span>
+                <img src="images/wijanarka.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenbrantalaras" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Brantalaras</span>
+                <img src="images/brantalaras.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenkumaladewa" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Kumaladewa</span>
+                <img src="images/kumaladewa.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenkumalasekti" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Kumalasekti</span>
+                <img src="images/kumalasekti.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenantakadewa" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Antaka Dewa</span>
+                <img src="images/antakadewa.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenwilugangga" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Wilugangga</span>
+                <img src="images/wilugangga.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radensumbada" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Sumbada</span>
+                <img src="images/sumbada.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenpramusinta" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Pramusinta</span>
+                <img src="images/pramusinta.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+			<!-- /Gambar Wayang -->
+					<!-- Gambar Wayang -->
+		<div data-role="page" id="radenwidapaksa" data-theme="e">
+            <div data-role="header">
+                <h1>Wayang Kulit</h1>
+            </div>
+            <div data-role="content">
+                <span>Raden Widapaksa</span>
+                <img src="images/widapaksa.jpg" width="300" style="display: block; margin: 0 auto">
+            </div>
+            <div data-role="footer">
+                    </div>
+        </div>
+		<!-- /Gambar Wayang -->
+				<!-- /Nama Wayang di Kelompok Wayang 5 -->
+	
+    </body>
+</html>
